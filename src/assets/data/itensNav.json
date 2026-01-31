@@ -1,27 +1,32 @@
 [
     {
         "texto":"Dashboard",
-        "icone":"",
-        "url":""
+        "icone":"/icons/icon-home.svg",
+        "url":"",
+        "alt":"icone-home"
     },
     {
         "texto":"Exercícios",
-        "icone":"",
-        "url":""
+        "icone":"/icons/icon-person.svg",
+        "url":"",
+        "alt":"icone-exercicios"
     },
     {
         "texto":"Perfil",
-        "icone":"",
-        "url":""
+        "icone":"/icons/icon-account.svg",
+        "url":"",
+        "alt":"icone-perfil"
     },
     {
         "texto":"Dicas de Saúde",
-        "icone":"",
-        "url":""
+        "icone":"/icons/icon-dicas.svg",
+        "url":"",
+        "alt":"icone-dicas"
     },
     {
         "texto":"Localização",
-        "icone":"",
-        "url":""
+        "icone":"/icons/icon-mapa.svg",
+        "url":"",
+        "alt":"icone-mapa"
     }
 ]
