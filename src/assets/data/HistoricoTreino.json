@@ -1,0 +1,38 @@
+[
+    {
+        "dia":"Sábado",
+        "treinos":"3",
+        "largura":"40%"
+    },
+    {
+        "dia":"Domingo",
+        "treinos":"6",
+        "largura":"80%"
+    },
+    {
+        "dia":"Segunda",
+        "treinos":"2",
+        "largura":"30%"
+    },
+    {
+        "dia":"Terça",
+        "treinos":"2",
+        "largura":"30%"
+    },
+    {
+        "dia":"Quarta",
+        "treinos":"4",
+        "largura":"50%"
+    },
+    {
+        "dia":"Quinta",
+        "treinos":"1",
+        "largura":"20%"
+    },
+    {
+        "dia":"Sexta",
+        "treinos":"2",
+        "largura":"30%"
+    }
+    
+]

@@ -2,31 +2,31 @@
     {
         "texto":"Dashboard",
         "icone":"/icons/icon-home.svg",
-        "url":"",
+        "url":"/",
         "alt":"icone-home"
     },
     {
         "texto":"Exercícios",
         "icone":"/icons/icon-person.svg",
-        "url":"",
+        "url":"/Exercicios",
         "alt":"icone-exercicios"
     },
     {
         "texto":"Perfil",
         "icone":"/icons/icon-account.svg",
-        "url":"",
+        "url":"/Perfil",
         "alt":"icone-perfil"
     },
     {
         "texto":"Dicas de Saúde",
         "icone":"/icons/icon-dicas.svg",
-        "url":"",
+        "url":"/Dicas",
         "alt":"icone-dicas"
     },
     {
         "texto":"Localização",
         "icone":"/icons/icon-mapa.svg",
-        "url":"",
+        "url":"/Localizacao",
         "alt":"icone-mapa"
     }
 ]

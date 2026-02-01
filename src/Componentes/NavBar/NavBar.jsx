@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Itens from '../../assets/data/itensNav.json'
 
 function NavBar(){
@@ -7,10 +8,10 @@ function NavBar(){
             <ul className='flex'>
                 {Itens.map(item =>
                 <li className='border-b p-2 hover:border-b-0 hover:border-t' key={item.texto}>
-                    <a href="" className='h-full w-full flex gap-2 items-center justify-center'>
+                    <Link to={item.url} className='h-full w-full flex gap-2 items-center justify-center'>
                         <span><img className='invert' src={item.icone} alt={item.alt} /></span>
                         <span>{item.texto}</span>
-                    </a>
+                    </Link>
                 </li>
                 )}
             </ul>
