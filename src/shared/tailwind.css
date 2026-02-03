@@ -3,3 +3,11 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+@theme{
+    --animate-pagamento: pagamento ease-in-out 1s
+}
+@keyframes pagamento {
+    from{
+        width: 100%;
+    }
+}

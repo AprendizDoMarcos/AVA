@@ -4,6 +4,11 @@ import CardDicas from "../Componentes/CardDicas/CardDicas"
 function Dicas(){
     useEffect(()=>{
         document.title = "Academia Vida Ativa - Dicas de Saúde"
+        
+        const icon = document.querySelector(".icon")
+        if(icon){
+            icon.href = '/icons/favicon-dica.png'
+        }
     },[])
     return(
         <main className="mb-20 mt-5">

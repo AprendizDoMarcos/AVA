@@ -7,6 +7,11 @@ function Dashboard() {
 
     useEffect(()=>{
         document.title = "Academia Vida Ativa - Dashboard"
+
+        const icon = document.querySelector(".icon")
+        if(icon){
+            icon.href = '/icons/favicon-dashboard.png'
+        }
     },[])
     return (
         <main className="mb-10">

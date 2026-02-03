@@ -4,6 +4,11 @@ import CardExercicio from "../Componentes/CardExercicio/CardExercicio"
 function Exercicios(){
     useEffect(()=>{
         document.title = "Academia Vida Ativa - Exercicios"
+
+        const icon = document.querySelector(".icon")
+        if(icon){
+            icon.href = '/icons/favicon-exercicios.png'
+        }
     },[])
     return(
         <main className="my-10 flex flex-col gap-5">
