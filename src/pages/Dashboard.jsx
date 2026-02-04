@@ -15,30 +15,30 @@ function Dashboard() {
     },[])
     return (
         <main className="mb-10">
-            <section className="flex justify-center items-center px-5 py-10 ">
+            <section className="flex justify-center items-center px-0 sm:px-5 py-10 ">
                 <div className="shadow shadow-gray-600 w-4/5 p-5 rounded-lg hover:-translate-y-5 transition-all duration-300">
-                    <h2 className="font-bold text-2xl">Bem-vindo, [Nome do Aluno]! Hoje é 27 de março de 2025</h2>
-                    <p>Veja seus dados e sugestões de novos exercícios abaixo.</p>
-                    <section className="flex bg-gray-300 rounded-md p-5 justify-around">
-                        <div className="bg-orange-600 text-white flex flex-col justify-center items-center p-10 rounded-md">
+                    <h2 className="font-bold text-lg sm:text-2xl">Bem-vindo, [Nome do Aluno]! Hoje é 27 de março de 2025</h2>
+                    <p className="text-sm sm:text-base">Veja seus dados e sugestões de novos exercícios abaixo.</p>
+                    <section className="flex sm:flex-row flex-col bg-gray-300 rounded-md gap-5 sm:gap-0 p-5 sm:justify-around items-center">
+                        <div className="bg-orange-600 text-white flex flex-col justify-center items-center p-5 h-30 w-4/5 sm:p-10 sm:w-40 sm:h-40 rounded-md">
                             <img className="invert w-5" src="/icons/icon-fale.svg" alt="icone-contato" />
                             <p>Contato</p>
                         </div>
-                        <div className="bg-orange-600 text-white flex flex-col justify-center items-center p-10 rounded-md">
+                        <div className="bg-orange-600 text-white flex flex-col justify-center items-center p-5 h-30 w-4/5 sm:p-10 sm:w-40 sm:h-40 rounded-md">
                             <img className="invert w-5" src="/icons/icon-beneficio.svg" alt="icone-beneficio" />
                             <p>Benefícios</p>
                         </div>
-                        <div className="bg-white rounded-md flex flex-col justify-center gap-5 py-10 w-60 items-start">
+                        <div className="bg-white rounded-md flex flex-col justify-center gap-5 py-5 w-4/5 sm:py-10 sm:px-0 sm:w-60 sm:h-40 items-start">
                             <p>Plano Atual: Premium Ouro</p>
                             <p>Mensalidade Março: <strong className="text-emerald-500">OK</strong></p>
                         </div>
                     </section>
                 </div>
             </section>
-            <section className="w-full h-70">
+            <section className="w-full h-70 sm:mb-10">
                 <Carrossel />
             </section>
-            <section className="flex gap-5 p-10">
+            <section className="flex flex-col sm:flex-row items-center gap-5 p-10">
                 <Cardpor titulo="Progresso de Processos" p="75%" cor="bg-emerald-500"/>
                 <Cardpor titulo="Distribuição de Atividades" p="50%" cor="bg-yellow-500" />
                 <Cardgra />

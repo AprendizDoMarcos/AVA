@@ -22,14 +22,14 @@ function Perfil() {
         Mudar(!Aberto)
     }
     return (
-        <main className="flex items-center h-[80dvh] relative">
+        <main className="flex items-center h-auto sm:h-[80dvh] relative mt-10 mb-20 sm:m-0">
             {Aberto && (
             <div 
                 className="fixed inset-0 bg-black/50 z-40"
                 onClick={Fechar}
             />
         )}
-            <dialog className={`${Aberto ? 'block' : 'none'} bg-white w-130 h-145 m-auto p-5 rounded-lg absolute top-[-5%] z-50`}>
+            <dialog className={`${Aberto ? 'block' : 'none'} bg-white sm:w-130 sm:h-145 m-auto p-5 rounded-lg absolute sm:top-[-5%] z-50`}>
                 <div className="flex justify-between mb-5">
                     <h2 className="text-2xl font-bold">Pagamentos de exercicios extras</h2>
                     <button onClick={Fechar} className="cursor-pointer text-2xl">X</button>
@@ -51,7 +51,7 @@ function Perfil() {
             </dialog>
             <section className="rounded-lg shadow-lg shadow-gray-400 w-[85%] m-auto p-5 flex flex-col items-center">
                 <h2 className="flex w-full gap-3  justify-center text-2xl font-bold">Perfil do Aluno <img className="w-5" src="/icons/icon-coin.svg" alt="coin" /></h2>
-                <section className="flex justify-around w-full my-10">
+                <section className="flex flex-col items-center gap-5 sm:gap-0 sm:flex-row justify-around w-full my-10">
                     <CardAluno t1="Tempo de Academia:" t2="4 Anos" />
                     <CardAluno t1="Email:" t2="email@email.com.br" />
                     <CardAluno t1="Plano:" t2="Premium Ouro" />

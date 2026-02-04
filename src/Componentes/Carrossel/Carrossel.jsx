@@ -22,13 +22,13 @@ function Carrossel() {
         "/images/banner4.jpg"
     ]
     return (
-        <div className="flex relative w-full h-full">
+        <div className="flex relative w-full h-48 sm:h-80">
             <button className="absolute z-10 text-white bg-black/50 top-1/2 -translate-y-1/2 left-10 p-3 cursor-pointer" onClick={VoltarItem}>&lt;</button>
 
             <div className="relative w-full h-full">
                 {Banners.map((src, index) => 
-                    <div key={index} className={`absolute ${ativo === index ? 'opacity-100' : 'opacity-0'} transition-opacity duration-200`}>
-                        <img className="h-full object-cover" src={src} alt={`Banner ${index}`}  key={`Banner ${index}`}/>
+                    <div key={index} className={`absolute ${ativo === index ? 'opacity-100' : 'opacity-0'} transition-opacity duration-200 w-full h-full`}>
+                        <img className="h-full w-full object-cover object-center" src={src} alt={`Banner ${index}`}  key={`Banner ${index}`}/>
                     </div>
                 )}
             </div>

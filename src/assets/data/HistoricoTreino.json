@@ -12,12 +12,12 @@
     {
         "dia":"Segunda",
         "treinos":"2",
-        "largura":"30%"
+        "largura":"35%"
     },
     {
         "dia":"Terça",
         "treinos":"2",
-        "largura":"30%"
+        "largura":"35%"
     },
     {
         "dia":"Quarta",
@@ -27,12 +27,12 @@
     {
         "dia":"Quinta",
         "treinos":"1",
-        "largura":"20%"
+        "largura":"30%"
     },
     {
         "dia":"Sexta",
         "treinos":"2",
-        "largura":"30%"
+        "largura":"35%"
     }
     
 ]

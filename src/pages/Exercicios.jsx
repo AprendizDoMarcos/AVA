@@ -13,11 +13,11 @@ function Exercicios(){
     return(
         <main className="my-10 flex flex-col gap-5">
             <section className="w-full flex flex-col items-center p-2 shadow-lg  my-5 hover:-translate-y-3 transition-all duration-300">
-                <h2 className="flex text-2xl font-bold gap-2">Exercícios que você pode aderir <img className="w-5" src="/icons/icon-exercise.svg" alt="icone"/></h2>
-                <p>Aqui estão alguns exemplos de exercicios a serem matriculados</p>
+                <h2 className="flex text-lg sm:text-2xl font-bold gap-2">Exercícios que você pode aderir <img className="w-5" src="/icons/icon-exercise.svg" alt="icone"/></h2>
+                <p className="text-center">Aqui estão alguns exemplos de exercicios a serem matriculados</p>
                 <p>Matricule-se Gratuitamente</p>
             </section>
-            <section className="flex mt-10 mb-15 justify-around">
+            <section className="flex flex-col sm:flex-row mt-10 mb-15 gap-5 sm:gap-0 justify-around items-center">
                 <CardExercicio titulo="Mhuay Thai" url="/images/exercicio1.jpg"/>
                 <CardExercicio titulo="Corrida Cronometrada" url="/images/exercicio2.jpg"/>
                 <CardExercicio titulo="Aeróbica" url="/images/exercicio3.jpg"/>
